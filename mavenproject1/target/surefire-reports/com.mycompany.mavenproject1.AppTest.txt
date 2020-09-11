@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.mavenproject1.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec <<< FAILURE!
+testPrintHello(com.mycompany.mavenproject1.AppTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...w...> but was:<...W...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.mycompany.mavenproject1.AppTest.testPrintHello(AppTest.java:47)
+
+testAlgo(com.mycompany.mavenproject1.AppTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...lg...> but was:<...gl...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.mycompany.mavenproject1.AppTest.testAlgo(AppTest.java:56)
+
